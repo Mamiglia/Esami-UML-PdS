@@ -1,3 +1,4 @@
+```
 InizioSpecificaTransizioni Richiesta
 	Transizione: CREATA -> CHIUSA
 		Segnatura: chiudi {mitt: this.creatore}
@@ -56,5 +57,5 @@ InizioSpecificaTransizioni Richiesta
 			post: 
 				statoCorrente = INVIATA
 				nuovoevento = notifica(this,this.manutentore)
-
 FineSpecifica
+```

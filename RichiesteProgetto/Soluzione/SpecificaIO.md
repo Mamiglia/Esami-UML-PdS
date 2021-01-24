@@ -1,3 +1,4 @@
+```
 InizioSpecificaI/O 
 	ErroreRichiesta() : () 
 		pre:--;
@@ -17,3 +18,4 @@ opzionale:
 	InputProgetto() : (Progetto)
 		pre: --;
 		post: Attende in input un Progetto, tale é il result;
+```

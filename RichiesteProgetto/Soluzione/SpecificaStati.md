@@ -1,3 +1,4 @@
+```
 InizioSpecificaStati Richiesta
 	Stati: {CREATA, CHIUSA, INVIATA, ATTESA}
 	
@@ -8,3 +9,4 @@ InizioSpecificaStati Richiesta
 		statoCorrente = CREATA;
 		manutentore = --;
 FineSpecifica
+```

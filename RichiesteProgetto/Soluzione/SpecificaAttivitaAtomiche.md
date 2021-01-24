@@ -1,3 +1,4 @@
+```
 SpecificaAttivitaAtomica Controllo
 	controllo(i : Insieme(Richiesta)) : (boolean)
 		pre: i != null;
@@ -29,3 +30,4 @@ SpecificaAttivitaAtomica RilascioPacchetto
 		post: carica il pacchetto su qualche server(?) e lo rilascia al pubblico
 	//Questa potrebbe essere considerata anche un'attivitá di output peró boh
 FineSpecifica
+```

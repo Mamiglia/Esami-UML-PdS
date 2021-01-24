@@ -1,3 +1,4 @@
+```
 SpecificaAttivitaComplesse SottoAttivita1
 	SottoAttivita1(f: Insieme(File)) : (boolean)
 
@@ -50,5 +51,5 @@ SpecificaAttivitaComplesse AttivitaPrincipale
 		RilasciaPacchetto(pacchetto);
 	FineProcesso
 FineSpecifica
-
+```
 		
