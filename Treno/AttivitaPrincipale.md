@@ -1,5 +1,5 @@
 ```java
-public AttivitaPrincipale implements Runnable {
+public class AttivitaPrincipale implements Runnable {
 	private Treno treno;
 	private Set<Vagone> vagoni;  // Java Collection Framework
 	private String oraArrivo;
