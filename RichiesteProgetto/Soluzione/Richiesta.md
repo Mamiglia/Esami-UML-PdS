@@ -7,7 +7,7 @@ public class Richiesta implements Listener {
 	private LinkRiguarda linkProgetto;
 	// considero il codice della richiesta, l'utente creatore e il progetto che riguarda come valori immutabili
 	
-	enum Stato {CREATA, CHIUSA, INVIATA, ATTESA};
+	static enum Stato {CREATA, CHIUSA, INVIATA, ATTESA};
 	Stato statoCorrente = CREATA;
 	Utente manutentore;
 	
