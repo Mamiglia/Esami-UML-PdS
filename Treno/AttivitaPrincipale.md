@@ -5,7 +5,7 @@ public class AttivitaPrincipale implements Runnable {
 	private String oraArrivo;
 	private boolean eseguita = false;
 	
-	public void run() {
+	public synchronized void run() {
 		if (eseguita) return;
 		eseguita = true;
 
@@ -47,7 +47,7 @@ public class Formazione implements Runnable {
 		this.vagoni = vagoni;
 	}
 
-	public void run() {
+	public synchronized void run() {
 		if (eseguita) return;
 		eseguita = true;
 
@@ -67,7 +67,7 @@ public class Orario implements Runnable {
 		this.treno = treno;
 	}
 
-	public void run() {
+	public synchronized void run() {
 		if (eseguita) return;
 		eseguita = true;
 
