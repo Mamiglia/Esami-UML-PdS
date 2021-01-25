@@ -114,7 +114,7 @@ Public class LinkVagoni {
 
 
 
-Public class ManagerVagoni {
+Public final class ManagerVagoni {
 	Private final LinkVagoni link;
 
 	Private ManagerVagoni(LinkVagoni l) { 
