@@ -24,7 +24,7 @@ public abstract class Aereo implements Listener {
 		//deve esserci, ma non la definisco io;
 	}
 
-	public synchronized void esegui(Evento e) {
+	public synchronized void fired(Evento e) {
 		if (e == null) return;
 		TaskExecutor.getInstance().perform(new AereoFired(this, e));
 	}
