@@ -14,7 +14,7 @@ OutputFine(nome: String, report: String) : ()
 
 //Attivitá complesse:
 Analisi(giocatori: Insieme(Giocatore)): (report: String)
-Gioco(g: Gioco) : ()
+GiocoAttivita(g: Gioco) : ()
 AttivitaPrincipale(g: Gioco) : ()
 
 

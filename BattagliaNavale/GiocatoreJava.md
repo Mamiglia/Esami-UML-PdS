@@ -175,5 +175,9 @@ public final class ManagerLink {
 		link.getGiocatore().deleteForManager(new ManagerLink(link));
 		link.getGioco().deleteForManager(new ManagerLink(link));
 	}
+	
+	public LinkPartecipa getLink() {
+		return link;
+	}
 }
 ```
